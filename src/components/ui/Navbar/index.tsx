@@ -9,7 +9,7 @@ export default function Navbar() {
       <ul className="flex items-center gap-5 font-light">
         <NavItem>Sobre</NavItem>
         <NavItem>Serviços</NavItem>
-        <NavItem>Testimonials</NavItem>
+        <NavItem>Testemunhos</NavItem>
         <NavItem>Contate-me</NavItem>
         <li className="bg-primary hover:text-primary hover:border-primary cursor-pointer rounded-sm border-1 border-transparent p-2 font-light text-white transition duration-200 ease-in-out hover:border-1 hover:bg-transparent">
           Download CV
