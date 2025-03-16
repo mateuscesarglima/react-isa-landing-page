@@ -1,3 +1,4 @@
+import Button from "../Button";
 import NavItem from "../NavItem";
 
 export default function Navbar() {
@@ -11,9 +12,7 @@ export default function Navbar() {
         <NavItem>Serviços</NavItem>
         <NavItem>Testemunhos</NavItem>
         <NavItem>Contate-me</NavItem>
-        <li className="bg-primary hover:text-primary hover:border-primary cursor-pointer rounded-sm border-1 border-transparent p-2 font-light text-white transition duration-200 ease-in-out hover:border-1 hover:bg-transparent">
-          Download CV
-        </li>
+        <Button>Download CV</Button>
       </ul>
     </nav>
   );

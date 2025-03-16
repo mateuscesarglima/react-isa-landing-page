@@ -2,10 +2,11 @@ import isaImg from "@images/isa.png";
 import imgBack from "@images/img-back.png";
 import Navbar from "@components/ui/Navbar";
 import { InstagramLogo, LinkedinLogo } from "@phosphor-icons/react";
+import Button from "@components/ui/Button";
 
 export default function Hero() {
   return (
-    <section className="mx-auto w-full max-w-[100rem] px-20">
+    <section>
       <Navbar />
       <div className="mt-[4rem] grid grid-cols-2 place-items-center">
         <div className="flex flex-col gap-8">
@@ -17,21 +18,16 @@ export default function Hero() {
               <br /> Digital
             </h1>
           </div>
-          <div className="flex flex-col gap-5">
-            <p className="text-justify">
+          <div className="flex flex-col items-start gap-5">
+            <p className="text-justify font-light">
               Meu nome é Isa Leite, e trabalho com Marketing Digital há 4 anos.
               Durante esse tempo, adquiri uma ampla experiência na área da
               comunicação, unindo criatividade e estratégia para entregar
               resultados que realmente fazem a diferença.
             </p>
-            <p className="text-justify">
-              Sou fotógrafa e videomaker, apaixonada por transformar ideias em
-              imagens e vídeos impactantes. Também domino a área de social
-              media, criando conteúdos inovadores e fora da caixa que ajudam
-              empresas a crescerem e se destacarem no mercado. Se você busca
-              alguém com visão criativa e foco em resultados para alavancar sua
-              empresa, estou aqui para fazer isso acontecer!
-            </p>
+            <Button>
+              <span className="text-lg font-light">Contrate-me</span>
+            </Button>
           </div>
         </div>
         <div className="relative">
