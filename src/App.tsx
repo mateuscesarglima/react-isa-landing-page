@@ -2,6 +2,7 @@
 
 import Aboutme from "@components/Aboutme";
 import Hero from "@components/Hero";
+import PhotoPortfolio from "@components/PhotoPortifolio";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* <Greetings /> */}
       <Hero />
       <Aboutme />
+      <PhotoPortfolio />
     </main>
   );
 }
