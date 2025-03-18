@@ -3,6 +3,7 @@
 import Aboutme from "@components/Aboutme";
 import Hero from "@components/Hero";
 import PhotoPortfolio from "@components/PhotoPortifolio";
+import WhatIMaster from "@components/WhatIMaster";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       {/* <Greetings /> */}
       <Hero />
       <Aboutme />
+      <WhatIMaster />
       <PhotoPortfolio />
     </main>
   );

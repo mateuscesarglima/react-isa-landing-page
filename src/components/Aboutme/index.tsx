@@ -3,6 +3,7 @@ import imgBack from "@images/img-back-2.png";
 import photoProgress from "@images/fotograph-progress.png";
 import videoMakerProgress from "@images/videomaker-progress.png";
 import socialMediaProgress from "@images/social-media-progress.png";
+import { Typograph } from "@components/ui/Typograph";
 
 export default function Aboutme() {
   return (
@@ -20,15 +21,15 @@ export default function Aboutme() {
         </div>
       </div>
       <div className="flex max-w-[40rem] flex-col gap-4">
-        <h1 className="text-6xl font-bold">Sobre mim</h1>
-        <p className="text-justify font-light">
+        <Typograph.Title>Sobre mim</Typograph.Title>
+        <Typograph.Paragraph>
           Sou fotógrafa e videomaker, apaixonada por transformar ideias em
           imagens e vídeos impactantes. Também domino a área de social media,
           criando conteúdos inovadores e fora da caixa que ajudam empresas a
           crescerem e se destacarem no mercado. Se você busca alguém com visão
           criativa e foco em resultados para alavancar sua empresa, estou aqui
           para fazer isso acontecer!
-        </p>
+        </Typograph.Paragraph>
         <div className="mt-5 flex flex-col gap-2">
           <div>
             <span className="font-semibold">Fotografia</span>

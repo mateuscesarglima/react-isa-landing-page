@@ -34,7 +34,7 @@ const photos = [
 
 export default function PhotoPortfolio() {
   return (
-    <section id="fotos" className="mt-[10rem] py-10">
+    <section id="fotos" className="8py-10 mt-[10rem]">
       <h2 className="mb-8 text-center text-4xl font-semibold">Fotos</h2>
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-4">
         {photos.map((photo, index) => (
